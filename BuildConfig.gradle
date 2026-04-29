@@ -6,3 +6,4 @@ android {
         buildConfigField("String", "CLIENT_SECRET", "\"abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOP\"")
     }
 }
+test
