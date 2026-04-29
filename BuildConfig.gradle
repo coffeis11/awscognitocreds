@@ -1,0 +1,8 @@
+android {
+    defaultConfig {
+        // AWS Cognito Client Credentials
+        buildConfigField("String", "TOKEN_SCOPE", "\"api/query\"")
+        buildConfigField("String", "CLIENT_ID", "\"1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7A8B9C0D1E2F3G4H5I\"")
+        buildConfigField("String", "CLIENT_SECRET", "\"abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOP\"")
+    }
+}
